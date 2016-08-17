@@ -27,6 +27,12 @@ For an applied exploration of HTM using Comportex, try the essay
 [Predicting power consumptions with HTM](http://mrcslws.com/gorilla/?path=hotgym.clj)
 by Marcus Lewis.
 
+## What is included?
+
+Comportex is written in [ClojureScript](https://github.com/clojure/clojurescript) and includes:
+- a CLJS API in multiple namespaces (see below)
+- a minimal Javascript API (WIP) in the `org.nfrac.comportex.js` namespace
+- a group of samples/demos
 
 ## Documentation
 
@@ -59,12 +65,25 @@ Or, for a better experience, check out the Notebook (browser-based
 REPL with super powers) in
 [Sanity](https://github.com/htm-community/sanity/).
 
+## Javascript API (WIP)
+
+A minimal Javascript API is exposed.
+There is a small demo which shows how to use this javascript API.
+
+Compile to javascript:
+
+`lein cljsbuild once`
+
+Load `public/comportexjs.html` in your browser.
+
+## Demos
+
+A list of demos can be found in `src/org/nfrac/comportex/demos/`
 
 ## Related projects
 
 * [Sanity](https://github.com/htm-community/sanity/)
 * [NuPIC](https://github.com/numenta/nupic/)
-
 
 ## Hello
 

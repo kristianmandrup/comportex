@@ -3,6 +3,11 @@
 ## [Unreleased]
 ### Changed
 
+## [0.0.15-SNAPSHOT] - 2016-07-17
+### Added
+- minimal Javascript API in new `js` namespace
+- Javascript API demo in `public/comportex.js`
+
 ## [0.0.14] - 2016-07-01
 ### Changed
 - No more temporal pooling excitation. Instead, synapses from predicted
